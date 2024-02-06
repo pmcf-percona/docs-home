@@ -1,17 +1,43 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+  - toc
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div class="splash framed" markdown>
 
-## Commands
+# Open-Source Databases
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Learn how to set up Percona's open-source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
 
-## Project layout
+[Percona for PostgreSQL](#){ .splash-cta .card }
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Percona for MongoDB](#){ .splash-cta .card }
+
+[Percona for MySQL](#){ .splash-cta .card }
+
+</div><div class="splash framed" markdown>
+
+## Cloud-Native Databases
+
+Leverage the power of modern open-source databases on the cloud with Percona solutions for PostgreSQL, MongoDB, and MySQL. Click to learn more with our documentation.
+
+[Learn More](#){ .splash-cta }
+
+</div><div class="splash framed" markdown>
+
+## Take Control of your Databases
+
+Monitor, manage, anticipate issues and optimize your database ecosystem with Percona's suite of open-source monitoring and management tools for databases. Click to learn more about using them.
+
+[Learn More](#){ .splash-cta }
+
+</div><div class="splash" markdown>
+
+## Support and Services by Percona
+
+Unlock the potential in your database infrastructures with Percona's support and services. From troubleshooting to optimization, scaling large systems, and design solutions, our team is ready to assist you. Get in touch with a Percona expert now.
+
+[Get a Percona Expert](#){ .splash-cta }
+
+</div>

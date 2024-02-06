@@ -1,6 +1,4 @@
 site_name: Percona Documentation
-repo_url: https://github.com/pmcf-percona/docs-home
-repo_name: percona/documentation
 theme:
   name: material
   logo: assets/percona-mark.svg
@@ -20,6 +18,16 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
 extra_css:
   - css/design.css
 markdown_extensions:
@@ -33,8 +41,9 @@ markdown_extensions:
           - overrides/.icons
   - pymdownx.snippets:
       base_path: ["snippets"]
-      auto_append:
-        - services-banner.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra:
   consent:
     title: Cookie Consent
@@ -48,3 +57,8 @@ extra:
       - accept
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and/or its affiliates © 2024 — <a href="#__consent">Cookie Consent</a>
+nav:
+  - Intro: index.md
+  - Dummy Content:
+    - One: test/ps-mysql.md
+    - Two: test/quickstart-guides.md
