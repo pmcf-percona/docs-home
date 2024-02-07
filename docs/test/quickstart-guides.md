@@ -1,6 +1,6 @@
 # Quickstart Guides
 
-Percona Server for MySQL is a high-performance, open-source drop-in replacement for MySQL. It allows you to enhance your database with superior performance, scalability, availability, and enhanced backups and is trusted by enterprises for demanding workloads. [Read more :material-arrow-top-right:](../index.md)
+Percona Server for MySQL is a high-performance, open-source drop-in replacement for MySQL. It allows you to enhance your database with superior performance, scalability, availability, and enhanced backups and is trusted by enterprises for demanding workloads. [Read more :material-arrow-top-right:](#)
 
 You can select from multiple easy-to-follow installation options, but **we recommend using a Package Manager** for a convenient and quick way to try the software first.
 
@@ -46,14 +46,16 @@ You can select from multiple easy-to-follow installation options, but **we recom
 
 Want to quickly test Percona Server for MySQL? Navigate into our easy-to-follow guide below, so you can understand the power of fast and performant databases with Percona.
 
-[Create a database :material-arrow-right:](../how-to/create-a-database.md){ .md-button }
+[Create a database :material-arrow-right:](#){ .md-button }
 
 Here are a few other useful topics to continue venturing into Percona Server:
 
-- Follow our [Prepare for production guide](../how-to/overview.md) to run a robust and scalable enterprise-grade database.
+- Follow our [Prepare for production guide](#) to run a robust and scalable enterprise-grade database.
 
-- Check if you want to [change the storage engine](dummy.md).
+- Check if you want to [change the storage engine](#).
 
-- Always a good idea to [improve checksums speed](dummy.md) before anything.
+- Always a good idea to [improve checksums speed](#) before anything.
 
-- You can also [install a pre-release](dummy.md) to test things out.
+- You can also [install a pre-release](#) to test things out.
+
+--8<-- "services-banner.md"

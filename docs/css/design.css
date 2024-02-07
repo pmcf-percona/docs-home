@@ -290,6 +290,10 @@
 
 /* Content re-styling */
 
+.md-main__inner {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
 .md-typeset [type=checkbox]:checked + .task-list-indicator:before {
     background-color: var(--aqua600);
 }
@@ -311,6 +315,9 @@
 .md-tabs__item--active .md-tabs__link a {
     font-weight: bold;
     border-bottom: 0.15em solid currentColor;
+}
+.md-sidebar__scrollwrap {
+    scrollbar-gutter: unset;
 }
 
 /* Custom Banner */

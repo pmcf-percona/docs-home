@@ -10,7 +10,7 @@ Starting with Percona Server for MySQL is easy. Follow our documentation guides,
 
 Want to see it for yourself? Get started quickly with our step-by-step installation instructions.
 
-[Quickstart Guides :material-arrow-right:](installation/quickstart-guides.md){ .md-button }
+[Quickstart Guides :material-arrow-right:](#){ .md-button }
 
 </div><div data-banner markdown>
 
@@ -18,7 +18,7 @@ Want to see it for yourself? Get started quickly with our step-by-step installat
 
 Rest assured! Learn more about our security features designed to protect your valuable data.
 
-[Security Measures :material-arrow-right:](security/overview.md){ .md-button }
+[Security Measures :material-arrow-right:](#){ .md-button }
 
 </div><div data-banner markdown>
 
@@ -26,7 +26,7 @@ Rest assured! Learn more about our security features designed to protect your va
 
 Discover the requirements to start with Percona Server for MySQL production.
 
-[Production Requirements :material-arrow-right:](how-to/overview.md){ .md-button }
+[Production Requirements :material-arrow-right:](#){ .md-button }
 
 </div><div data-banner markdown>
 
@@ -34,6 +34,8 @@ Discover the requirements to start with Percona Server for MySQL production.
 
 Our comprehensive resources will help you overcome challenges, from everyday issues to specific doubts.
 
-[Troubleshoot and Q&A :material-arrow-right:](troubleshoot-and-qa/overview.md){ .md-button }
+[Troubleshoot and Q&A :material-arrow-right:](#){ .md-button }
 
 </div></div>
+
+--8<-- "services-banner.md"

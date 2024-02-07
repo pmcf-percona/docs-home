@@ -8,16 +8,16 @@ theme:
       scheme: percona-light
       primary: custom
       accent: custom
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: percona-dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: percona-dark)"
+    #   scheme: slate
+    #   primary: custom
+    #   accent: custom
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode
   features:
     - navigation.indexes
     - navigation.instant

@@ -30,4 +30,4 @@ Once everything is updated and ready, you can follow the below tasks to install:
 	```
 	For more information on `percona-release` command see [Configuring Percona Repositories](https://docs.percona.com/percona-software-repositories/percona-release.html).
 
-5. It should now be installed! Percona Server runs automatically after installation. To control the service, learn how to [Stop/Run Percona Server](apt/run-stop.md).
+5. It should now be installed! Percona Server runs automatically after installation. To control the service, learn how to [Stop/Run Percona Server](#).
