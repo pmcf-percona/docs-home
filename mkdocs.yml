@@ -1,13 +1,14 @@
 site_name: Percona Documentation
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/percona-mark.svg
   favicon: assets/percona-fav.svg
-  palette:
-    - media: "(prefers-color-scheme: percona-light)"
-      scheme: percona-light
-      primary: custom
-      accent: custom
+  # palette:
+  #   - media: "(prefers-color-scheme: percona-light)"
+  #     scheme: percona-light
+  #     primary: custom
+  #     accent: custom
     #   toggle:
     #     icon: material/toggle-switch-off-outline
     #     name: Switch to dark mode
@@ -55,6 +56,22 @@ extra:
     actions:
       - manage
       - accept
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thank you for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thank you for your feedback! Help us improve by following this <a href="..." target="_blank" rel="noopener">feedback form</a>.
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and/or its affiliates © 2024 — <a href="#__consent">Cookie Consent</a>
 nav:
@@ -62,3 +79,4 @@ nav:
   - Dummy Content:
     - One: test/ps-mysql.md
     - Two: test/quickstart-guides.md
+  - Link: "https://www.percona.com/about"
