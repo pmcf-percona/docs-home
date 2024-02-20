@@ -1,7 +1,8 @@
 ---
 hide:
-  - toc
-  - feedback
+- toc
+- feedback
+- navigation
 ---
 <link rel="stylesheet" type="text/css" href="/css/landing.css" />
 <main class="landing" markdown>

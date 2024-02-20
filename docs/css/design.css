@@ -63,6 +63,7 @@
     /* mkdocs root override */
     --md-primary-fg-color--dark: var(--night400);
 }
+:root,
 [data-md-color-scheme="percona-light"] {
     /* Primitives */
     --md-primary-fg-color: var(--sky700);
