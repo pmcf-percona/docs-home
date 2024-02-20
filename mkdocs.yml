@@ -76,8 +76,7 @@ extra:
 copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and/or its affiliates © 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 nav:
-  - Intro: index.md
+  - Welcome: index.md
   - Dummy Content:
     - One: test/ps-mysql.md
     - Two: test/quickstart-guides.md
-  - Link: "https://www.percona.com/about"

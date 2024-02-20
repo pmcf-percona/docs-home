@@ -112,6 +112,9 @@
     --md-accent-bg-color: var(--stone900);
 
     /* Footer */
+    --md-footer-fg-color: var(--md-typeset-color);
+    --md-footer-fg-color--light: var(--md-default-fg-color--light);
+    --md-footer-fg-color--lighter: var(--md-default-fg-color--lighter);
     --md-footer-bg-color--dark: var(--stone800);
 
     /* Code */

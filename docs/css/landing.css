@@ -10,10 +10,100 @@
     margin: 0.5em 0;
 }
 
-/* Layout adjustments */
+/* Resets */
 
 .md-main__inner {
     margin-top: 0;
 }
 
+/* Layout adjustments */
+
+.landing > :not(:last-child) {
+    margin-bottom: 2em;
+}
+
 /* New components */
+
+.splash {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.25;
+    padding: calc(0.5em + 3%);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: calc(0.5rem + 0.75vw);
+    background: linear-gradient(110deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
+}
+.splash.highlight {
+    color: var(--md-default-bg-color);
+    background: linear-gradient(110deg, rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.2) 90%), url(../assets/highlight.jpg) center center / cover no-repeat var(--md-typeset-color) ;
+}
+.splash > * {
+    flex: 0 1 45%;
+}
+.splash h1,
+.splash h2 {
+    margin-top: 0;
+    margin-bottom: -0.125em;
+}
+.splash > :last-child {
+    margin-bottom: 0;
+}
+.splash-intro {
+    margin: 0.5rem 0.75rem;
+}
+.splash-links > :not(:last-child) {
+    margin-bottom: 1em;
+}
+a.splash-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 6.375em;
+    padding: 0.75rem 0.375rem 0.5rem 4.625rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: calc(0.25rem + 0.375vw);
+    cursor: pointer;
+    text-decoration: none !important;
+    color: var(--md-typeset-color);
+    position: relative;
+    background-color: var(--md-default-bg-color);
+    transition: all 0.2s ease-out;
+}
+.splash.highlight a.splash-card {
+    color: var(--md-default-bg-color);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1rem);
+    border-color: rgba(255,255,255,0.1);
+}
+a.splash-card:hover {
+    color: var(--md-default-bg-color);
+    background-color: var(--md-typeset-color);
+}
+.splash.highlight a.splash-card:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255,255,255,0.2);
+}
+a.splash-card img {
+    display: block;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 0.25rem;
+    float: left;
+}
+.splash-card > * {
+    margin: 0 0.25rem 0.25rem 0 !important;
+}
+.splash-card > :not(p):not(img) {
+    font-size: 0.875rem;
+}
+
+/* Conditionals */
+
+@media screen and (max-width: 45em) {
+    .splash {
+        flex-direction: column;
+    }
+}
