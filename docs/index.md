@@ -4,7 +4,6 @@ hide:
 - feedback
 - navigation
 ---
-<link rel="stylesheet" type="text/css" href="/css/landing.css" />
 <div class="landing">
 
   <!--Open-source theme-->

@@ -32,6 +32,7 @@ theme:
 extra_css:
   - css/design.css
   - css/osano.css
+  - css/landing.css
 markdown_extensions:
   - md_in_html
   - attr_list
