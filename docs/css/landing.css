@@ -34,8 +34,9 @@
     background: linear-gradient(110deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
 }
 .splash.highlight {
-    color: var(--md-default-bg-color);
-    background: linear-gradient(110deg, rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.2) 90%), url(../assets/highlight.jpg) center center / cover no-repeat var(--md-typeset-color) ;
+    color: var(--white);
+    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center center / cover no-repeat var(--stone900);
+    border-color: transparent;
 }
 .splash > * {
     flex: 0 1 45%;
@@ -70,9 +71,9 @@ a.splash-card {
     transition: all 0.2s ease-out;
 }
 .splash.highlight a.splash-card {
-    color: var(--md-default-bg-color);
+    color: var(--white);
     background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(0.75rem);
     border-color: rgba(255,255,255,0.1);
 }
 a.splash-card:hover {
@@ -82,6 +83,7 @@ a.splash-card:hover {
 .splash.highlight a.splash-card:hover {
     background-color: rgba(255, 255, 255, 0.4);
     border-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(1.5rem);
 }
 a.splash-card img {
     display: block;
