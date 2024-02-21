@@ -105,7 +105,7 @@ hide:
           Percona Monitoring & Management
         </h4>
         <p>
-          High-quality, polyglot monitoring of databases
+          High-quality, polyglot monitoring, alerting and more for databases
         </p>
       </a>
       <a href="#" class="splash-card">
