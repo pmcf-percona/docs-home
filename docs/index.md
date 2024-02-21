@@ -8,7 +8,7 @@ hide:
 
   <!--Open-source theme-->
 
-  <section class="splash highlight">
+  <section class="splash highlight dark">
     <!--Intro-->
     <div class="splash-intro">
       <h1>
@@ -22,27 +22,27 @@ hide:
     <div class="splash-links">
       <a href="#" class="splash-card">
         <img src="assets/logo-postgresql.svg" alt="Percona for PostgreSQL logo" />
-        <h4>
+        <h3>
           Percona for PostgreSQL
-        </h4>
+        </h3>
         <p>
           All Percona software for PostgreSQL databases documentation
         </p>
       </a>
       <a href="#" class="splash-card">
         <img src="assets/logo-mongodb.svg" alt="Percona for MongoDB logo" />
-        <h4>
+        <h3>
           Percona for MongoDB
-        </h4>
+        </h3>
         <p>
           All Percona software for MongoDB databases documentation
         </p>
       </a>
-      <a href="#" class="splash-card">
+      <a href="percona-for-mysql" class="splash-card">
         <img src="assets/logo-mysql.svg" alt="Percona for MySQL logo" />
-        <h4>
+        <h3>
           Percona for MySQL
-        </h4>
+        </h3>
         <p>
           All Percona software for MySQL databases documentation
         </p>
@@ -64,20 +64,20 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="#" class="splash-card">
+      <a href="https://github.com/percona/everest-doc" class="splash-card">
         <img src="assets/logo-everest.svg" alt="Percona Everest logo" />
-        <h4>
+        <h3>
           Percona Everest
-        </h4>
+        </h3>
         <p>
           Documentation for Percona’s private database-as-a-service open-source software
         </p>
       </a>
       <a href="#" class="splash-card">
         <img src="assets/logo-operators.svg" alt="Percona Operators logo" />
-        <h4>
+        <h3>
           Percona Operators
-        </h4>
+        </h3>
         <p>
           Documentation for the Kubernetes operators available for PostgreSQL, MongoDB and MySQL
         </p>
@@ -99,20 +99,20 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="#" class="splash-card">
+      <a href="https://docs.percona.com/percona-monitoring-and-management" class="splash-card">
         <img src="assets/logo-pmm.svg" alt="Percona Monitoring & Management logo" />
-        <h4>
+        <h3>
           Percona Monitoring & Management
-        </h4>
+        </h3>
         <p>
           High-quality, polyglot monitoring, alerting and more for databases
         </p>
       </a>
-      <a href="#" class="splash-card">
+      <a href="https://docs.percona.com/percona-toolkit" class="splash-card">
         <img src="assets/logo-pt.svg" alt="Percona Toolkit logo" />
-        <h4>
+        <h3>
           Percona Toolkit
-        </h4>
+        </h3>
         <p>
           Professional, advanced and open-source command-line tools for databases
         </p>

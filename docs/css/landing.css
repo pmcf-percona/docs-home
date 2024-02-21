@@ -15,23 +15,52 @@
 .landing > :not(:last-child) {
     margin-bottom: 2em;
 }
+.md-content__inner {
+    display: flex;
+    flex-direction: column;
+}
+.md-content__inner > :not(.landing) {
+    width: 100%;
+    max-width: calc(34.3rem + 1.2rem + 12.1rem);
+    align-self: center;
+}
 
-/* New components */
+/* Splash Box */
 
 .splash {
     display: flex;
+    position: relative;
     justify-content: space-between;
     line-height: 1.25;
     padding: calc(0.5em + 3%);
     border: 1px solid var(--md-default-fg-color--lightest);
     border-radius: calc(0.5rem + 0.75vw);
     background: linear-gradient(110deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.splash.dark {
+    color: var(--white);
+    --md-primary-fg-color: var(--stone50);
+    --md-accent-fg-color: var(--white);
 }
 .splash.highlight {
-    color: var(--white);
-    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center / cover no-repeat var(--stone900);
+    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center / cover  var(--stone900);
     border-color: transparent;
+    background-repeat: no-repeat;
 }
+.splash.mysql {
+    background: linear-gradient(110deg, rgba(0,0,0,0.2) 33%, rgba(0,0,0,0.1) 95%), linear-gradient(110deg, rgb(14,95,181) 33%, rgb(48,209,178) 95%);
+    border-color: transparent;
+    background-repeat: no-repeat;
+}
+.splash.mysql {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Splash Contents */
+
 .splash > * {
     flex: 0 1 45%;
 }
@@ -49,6 +78,40 @@
 .splash-links > :not(:last-child) {
     margin-bottom: 1em;
 }
+.splash.dark .md-button {
+    border-color: rgba(255, 255, 255, 0.2)
+}
+.splash.dark .md-button:hover {
+    border-color: var(--white)
+}
+.splash.dark .md-button--primary,
+.splash.dark .md-button--primary:hover {
+    color: var(--stone800);
+}
+.splash.dark .md-button--primary:hover {
+    color: var(--stone900);
+}
+.splash.mysql > * {
+    max-width: 30rem;
+    z-index: 1;
+}
+.splash.mysql > :first-child {
+    margin: 0;
+}
+.splash.mysql img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+/* Splash Card */
+
 a.splash-card {
     display: flex;
     flex-direction: column;
@@ -92,11 +155,19 @@ a.splash-card img {
 .splash-card > * {
     margin: 0 0.25rem 0.25rem 0 !important;
 }
-.splash-card > :not(p):not(img) {
+.splash-card > h3 {
     font-size: 0.875rem;
+    margin-bottom: 0.0625rem !important;
 }
 
 /* Conditionals */
+
+@media screen and (max-width: 55em) {
+    .splash.mysql img {
+        right: -2rem;
+        opacity: 0.2;
+    }
+}
 
 @media screen and (max-width: 45em) {
     .splash {

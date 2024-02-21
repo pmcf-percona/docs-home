@@ -58,6 +58,7 @@
     /* Percona Stone */
     --stone900: #2C323E;
     --stone800: #3A4151;
+    --stone100: #D1D5DE;
     --stone50: #F0F1F4;
 
     /* mkdocs root override */
@@ -65,6 +66,7 @@
 }
 :root,
 [data-md-color-scheme="percona-light"] {
+
     /* Primitives */
     --md-primary-fg-color: var(--sky700);
 
@@ -93,6 +95,7 @@
     --md-code-bg-color: var(--stone50);
 }
 [data-md-color-scheme="slate"] {
+
     /* Primitives */
     --md-hue: 230;
     --md-primary-fg-color: var(--sky200);
