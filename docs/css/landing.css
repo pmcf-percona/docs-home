@@ -21,7 +21,8 @@
 }
 .md-content__inner > :not(.landing) {
     width: 100%;
-    max-width: calc(34.3rem + 1.2rem + 12.1rem);
+    max-width: calc(34.3rem);
+    /* max-width: calc(34.3rem + 1.2rem + 12.1rem); */
     align-self: center;
 }
 
@@ -45,13 +46,13 @@
     --md-accent-fg-color: var(--white);
 }
 .splash.highlight {
-    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center / cover  var(--stone900);
-    border-color: transparent;
+    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center / cover;
+    border: none;
     background-repeat: no-repeat;
 }
 .splash.mysql {
     background: linear-gradient(110deg, rgba(0,0,0,0.2) 33%, rgba(0,0,0,0.1) 95%), linear-gradient(110deg, rgb(14,95,181) 33%, rgb(48,209,178) 95%);
-    border-color: transparent;
+    border: none;
     background-repeat: no-repeat;
 }
 .splash.mysql {
