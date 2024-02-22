@@ -6,43 +6,29 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header postgresql dark" markdown>
+<div class="splash header mongodb dark" markdown>
 
-![Percona for PostgreSQL logo](assets/logo-dark-postgresql.svg)
+![Percona for MongoDB logo](assets/logo-dark-mongodb.svg)
 
-# Percona for PostgreSQL
+# Percona for MongoDB
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your PostgreSQL databases is right here.
+Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your MongoDB databases is right here.
 
-[Select documentation](#percona-for-postgresql-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
+[Select documentation](#percona-for-mongodb-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
 
 </div>
 </div>
 
 
 
-## Percona for PostgreSQL Documentation
+## Percona for MongoDB Documentation
 
 <div data-grid markdown>
 <div data-banner markdown>
 
-### Percona Distribution for PostgreSQL {.title}
+### Percona Server for MongoDB {.title}
 
-The best and most critical enterprise-level components from the open source community, designed and tested to work together in one source to swiftly deploy your PostgreSQL databases.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Operator for PostgreSQL {.title}
-
-Automate deployment and management of PostgreSQL clusters on Kubernetes with Operator.
+A drop-in replacement for MongoDB with advanced features and functionality.
 
 <div class="actions" markdown>
 
@@ -54,9 +40,37 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 </div>
 <div data-banner markdown>
 
-### Percona Query Monitoring for PostgreSQL {.title}
+### Percona Operator for MongoDB {.title}
 
-Query performance monitoring tool that brings more insight and details around query performance and scale on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+Automate deployment and management of MongoDB clusters on Kubernetes with Operator.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Downloads](#)
+[Quickstart Docs :material-arrow-right:](#)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### Percona Backup for MongoDB {.title}
+
+A fully supported, open source, community backup tool for performing consistent hot backups in MongoDB.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Downloads](#)
+[Quickstart Docs :material-arrow-right:](#)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### Percona Distribution for MongoDB {.title}
+
+A single high-performance solution for enterprises looking to achieve optimum performance, without the expensive proprietary contract.
 
 <div class="actions" markdown>
 

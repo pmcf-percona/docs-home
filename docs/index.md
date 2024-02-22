@@ -29,7 +29,7 @@ hide:
           All Percona software for PostgreSQL databases documentation
         </p>
       </a>
-      <a href="#" class="splash-card">
+      <a href="percona-for-mongodb" class="splash-card">
         <img src="assets/logo-mongodb.svg" alt="Percona for MongoDB logo" />
         <h3>
           Percona for MongoDB

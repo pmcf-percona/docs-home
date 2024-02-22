@@ -8,7 +8,7 @@ hide:
 <div class="landing" markdown>
 <div class="splash header mysql dark" markdown>
 
-![alt text](assets/logo-dark-mysql.svg)
+![Percona for MySQL logo](assets/logo-dark-mysql.svg)
 
 # Percona for MySQL
 
