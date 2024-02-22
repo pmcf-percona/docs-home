@@ -78,7 +78,7 @@ copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and/or its affiliates © 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 nav:
   - Welcome: index.md
-  - Percona for PostgreSQL: dummy.md
+  - Percona for PostgreSQL: percona-for-postgresql.md
   - Percona for MongoDB: dummy.md
   - Percona for MySQL: percona-for-mysql.md
   - Percona Everest: "https://github.com/percona/everest-doc"

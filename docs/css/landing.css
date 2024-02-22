@@ -12,6 +12,9 @@
 
 /* Layout adjustments */
 
+.md-header, .md-tabs {
+    background-color: var(--stone900);
+}
 .landing > :not(:last-child) {
     margin-bottom: 2em;
 }
@@ -49,18 +52,47 @@
     --md-accent-fg-color: var(--white);
 }
 .splash.highlight {
-    background: linear-gradient(110deg, rgba(62,72,117,0.9) 0%, rgba(62,72,117,0.3) 90%), url(../assets/highlight.jpg) center / cover;
+    background:
+        linear-gradient(
+            110deg,
+            rgba(44,50,62,0.9) 0%,
+            rgba(44,50,62,0.3) 90%
+        ),
+        url(../assets/highlight.jpg) center / cover;
     border: none;
     background-repeat: no-repeat;
 }
 .splash.mysql {
-    background: linear-gradient(110deg, rgba(0,0,0,0.2) 33%, rgba(0,0,0,0.1) 95%), linear-gradient(110deg, rgb(14,95,181) 33%, rgb(48,209,178) 95%);
-    border: none;
-    background-repeat: no-repeat;
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.2) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(14,95,181) 33%,
+            rgb(48,209,178) 95%
+        );
 }
-.splash.mysql {
+.splash.postgresql {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.2) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(94,102,140) 33%,
+            rgb(67,158,255) 95%
+        );
+}
+.splash.header {
     flex-direction: column;
     align-items: flex-start;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 /* Splash Contents */
@@ -95,14 +127,14 @@
 .splash.dark .md-button--primary:hover {
     color: var(--stone900);
 }
-.splash.mysql > * {
+.splash.header > * {
     max-width: 30rem;
     z-index: 1;
 }
-.splash.mysql > :first-child {
+.splash.header > :first-child {
     margin: 0;
 }
-.splash.mysql img {
+.splash.header img {
     display: block;
     position: absolute;
     top: 50%;
@@ -196,6 +228,17 @@ a.splash-card img {
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: 2.8em;
+    position: relative;
+}
+[data-article] > :nth-child(2):not(:last-child)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: 1.4em;
+    background: linear-gradient(to right, transparent 0%, var(--md-default-bg-color) 50%);
 }
 [data-article] > :last-child > * {
     margin-right: 1em;
@@ -210,7 +253,7 @@ a.splash-card img {
 /* Conditionals */
 
 @media screen and (max-width: 55em) {
-    .splash.mysql img {
+    .splash.header img {
         right: -2rem;
         opacity: 0.2;
     }

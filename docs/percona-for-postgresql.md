@@ -6,43 +6,29 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header mysql dark" markdown>
+<div class="splash header postgresql dark" markdown>
 
-![alt text](assets/logo-dark-mysql.svg)
+![alt text](assets/logo-dark-postgresql.svg)
 
-# Percona for MySQL
+# Percona for PostgreSQL
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your MySQL databases is right here.
+Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your PostgreSQL databases is right here.
 
-[Select documentation](#percona-for-mysql-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
+[Select documentation](#percona-for-postgresql-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
 
 </div>
 </div>
 
 
 
-## Percona for MySQL Documentation
+## Percona for PostgreSQL Documentation
 
 <div data-grid markdown>
 <div data-banner markdown>
 
-### Percona Server for MySQL {.title}
+### Percona Distribution for PostgreSQL {.title}
 
-A drop-in replacement for MySQL, with advanced features and functionality.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Operator based on Percona Server for MySQL {.title}
-
-Automate deployment and management of MySQL clusters on Kubernetes with Operator.
+The best and most critical enterprise-level components from the open source community, designed and tested to work together in one source to swiftly deploy your PostgreSQL databases.
 
 <div class="actions" markdown>
 
@@ -54,23 +40,9 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 </div>
 <div data-banner markdown>
 
-### Percona XtraDB Cluster {.title}
+### Percona Operator for PostgreSQL {.title}
 
-A high-availability clustering solution based on Percona Server for MySQL.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Operator based on Percona XtraDB Cluster {.title}
-
-Automate deployment and management of Percona XtraDB Clusters on Kubernetes with this Operator.
+Automate deployment and management of PostgreSQL clusters on Kubernetes with Operator.
 
 <div class="actions" markdown>
 
@@ -82,23 +54,9 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 </div>
 <div data-banner markdown>
 
-### Percona XtraBackup {.title}
+### Percona Query Monitoring for PostgreSQL {.title}
 
-A hot backup solution for MySQL.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Distribution for MySQL {.title}
-
-The most stable, scalable and secure open source MySQL distribution with choice on either Percona Server for MySQL or Percona XtraDB Cluster.
+Query performance monitoring tool that brings more insight and details around query performance and scale on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
 
 <div class="actions" markdown>
 

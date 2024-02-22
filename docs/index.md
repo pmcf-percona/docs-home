@@ -20,7 +20,7 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="#" class="splash-card">
+      <a href="percona-for-postgresql" class="splash-card">
         <img src="assets/logo-postgresql.svg" alt="Percona for PostgreSQL logo" />
         <h3>
           Percona for PostgreSQL
