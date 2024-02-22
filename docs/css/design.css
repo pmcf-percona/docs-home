@@ -58,6 +58,7 @@
     /* Percona Stone */
     --stone900: #2C323E;
     --stone800: #3A4151;
+    --stone700: #4B5468;
     --stone100: #D1D5DE;
     --stone50: #F0F1F4;
 
@@ -344,6 +345,9 @@
     font-weight: bold;
     margin: 0;
 }
+[data-banner] .title + * {
+    margin-top: 0.25em;
+}
 [data-banner] > :last-child {
     margin-bottom: 0;
 }
@@ -358,7 +362,7 @@
 }
 [data-banner] .actions a {
     display: inline-block;
-    margin: 0.5em 1.5em 0 0;
+    margin: 0 1em 0 0;
 }
 [data-banner] > :only-child,
 [data-banner] .actions a:first-of-type {
@@ -578,8 +582,5 @@ i[warning] [class*="moji"] {
 @media screen and (max-width: 60em) {
     [data-banner] {
         padding: 1em;
-    }
-    [data-banner] .actions a {
-        width: 100%;
     }
 }

@@ -12,7 +12,7 @@ hide:
     <!--Intro-->
     <div class="splash-intro">
       <h1>
-        Open-Source Databases
+        Open-source databases
       </h1>
       <p>
         Learn how to set up Percona's open-source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
@@ -56,7 +56,7 @@ hide:
     <!--Intro-->
     <div class="splash-intro">
       <h2>
-        Cloud-Native Databases
+        Cloud-native databases
       </h2>
       <p>
         Leverage the power of modern open-source databases on the cloud with Percona solutions for PostgreSQL, MongoDB, and MySQL. Click to start your cloud-native databases journey with our documentation.
@@ -91,7 +91,7 @@ hide:
     <!--Intro-->
     <div class="splash-intro">
       <h2>
-        Database Tools
+        Database tools
       </h2>
       <p>
         Learn how to set up Percona's open-source solutions for your database needs. Pick your favorite technology to access our step-by-step guidance and documentation.
