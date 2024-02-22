@@ -55,7 +55,7 @@
     background:
         linear-gradient(
             110deg,
-            rgba(44,50,62,1) 10%,
+            rgba(44,50,62,0.9) 10%,
             rgba(44,50,62,0.1) 90%
         ),
         url(../assets/highlight.jpg) center / cover var(--stone800);
@@ -79,7 +79,7 @@
     background:
         linear-gradient(
             110deg,
-            rgba(0,0,0,0.3) 33%,
+            rgba(0,0,0,0.4) 33%,
             rgba(0,0,0,0.1) 95%
         ),
         linear-gradient(
@@ -278,13 +278,18 @@ a.splash-card img {
 
 /* Conditionals */
 
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title[for=__drawer],
+    .md-nav--primary .md-nav__title {
+        background-color: var(--stone800);
+    }
+}
 @media screen and (max-width: 55em) {
     .splash.header img {
         right: -2rem;
         opacity: 0.2;
     }
 }
-
 @media screen and (max-width: 45em) {
     .splash {
         flex-direction: column;

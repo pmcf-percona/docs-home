@@ -12,7 +12,7 @@ hide:
 
 # Percona Operators
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to deploy and scale your databases with Kubernetes is right here.
+Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to deploy and scale your databases with Kubernetes.
 
 [Select documentation](#percona-operators-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
 

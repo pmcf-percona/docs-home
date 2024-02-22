@@ -192,6 +192,12 @@
 .md-tabs__link {
     margin-top: 0.55rem;
 }
+.md-header__topic {
+    transition: opacity .25s;
+}
+.md-header__topic:hover {
+    opacity: 0.7;
+}
 
 /* Footer */
 
