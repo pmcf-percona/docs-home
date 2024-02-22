@@ -58,7 +58,7 @@
             rgba(44,50,62,1) 10%,
             rgba(44,50,62,0.1) 90%
         ),
-        url(../assets/highlight.jpg) center / cover;
+        url(../assets/highlight.jpg) center / cover var(--stone800);
     border: none;
     background-repeat: no-repeat;
 }
@@ -79,7 +79,7 @@
     background:
         linear-gradient(
             110deg,
-            rgba(0,0,0,0.2) 33%,
+            rgba(0,0,0,0.3) 33%,
             rgba(0,0,0,0.1) 95%
         ),
         linear-gradient(
@@ -92,13 +92,26 @@
     background:
         linear-gradient(
             110deg,
-            rgba(0,0,0,0.2) 33%,
+            rgba(0,0,0,0.4) 33%,
             rgba(0,0,0,0.1) 95%
         ),
         linear-gradient(
             110deg,
             rgb(24,109,73) 33%,
             rgb(48,209,190) 95%
+        );
+}
+.splash.operators {
+    background:
+        linear-gradient(
+            110deg,
+            transparent 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(11,39,140) 33%,
+            rgb(20,142,255) 95%
         );
 }
 .splash.header {

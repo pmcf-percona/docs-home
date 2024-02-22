@@ -21,7 +21,7 @@ Quickstart guides, help guides, reference lists, release notes, the latest downl
 
 
 
-## Percona for MongoDB Documentation
+## Percona for MongoDB documentation
 
 <div data-grid markdown>
 <div data-banner markdown>

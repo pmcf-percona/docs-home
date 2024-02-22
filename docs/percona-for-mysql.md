@@ -21,7 +21,7 @@ Quickstart guides, help guides, reference lists, release notes, the latest downl
 
 
 
-## Percona for MySQL Documentation
+## Percona for MySQL documentation
 
 <div data-grid markdown>
 <div data-banner markdown>

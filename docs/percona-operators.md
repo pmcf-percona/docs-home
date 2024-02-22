@@ -6,38 +6,24 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header postgresql dark" markdown>
+<div class="splash header operators dark" markdown>
 
-![Percona for PostgreSQL logo](assets/logo-dark-postgresql.svg)
+![Percona Operators logo](assets/logo-dark-operators.svg)
 
-# Percona for PostgreSQL
+# Percona Operators
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your PostgreSQL databases is right here.
+Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to deploy and scale your databases with Kubernetes is right here.
 
-[Select documentation](#percona-for-postgresql-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
+[Select documentation](#percona-operators-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
 
 </div>
 </div>
 
 
 
-## Percona for PostgreSQL documentation
+## Percona Operators documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
-
-### Percona Distribution for PostgreSQL {.title}
-
-The best and most critical enterprise-level components from the open source community, designed and tested to work together in one source to swiftly deploy your PostgreSQL databases.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
-
-</div>
-</div>
 <div data-banner markdown>
 
 ### Percona Operator for PostgreSQL {.title}
@@ -54,9 +40,37 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 </div>
 <div data-banner markdown>
 
-### Percona Query Monitoring for PostgreSQL {.title}
+### Percona Operator for MongoDB {.title}
 
-Query performance monitoring tool that brings more insight and details around query performance and scale on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+Automate deployment and management of MongoDB clusters on Kubernetes with Operator.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Downloads](#)
+[Quickstart Docs :material-arrow-right:](#)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### Percona Operator based on Percona Server for MySQL {.title}
+
+Automate deployment and management of MySQL clusters on Kubernetes with Operator.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Downloads](#)
+[Quickstart Docs :material-arrow-right:](#)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### Percona Operator based on Percona XtraDB Cluster {.title}
+
+Automate deployment and management of Percona XtraDB Clusters on Kubernetes with this Operator.
 
 <div class="actions" markdown>
 

@@ -81,8 +81,8 @@ nav:
   - Percona for PostgreSQL: percona-for-postgresql.md
   - Percona for MongoDB: percona-for-mongodb.md
   - Percona for MySQL: percona-for-mysql.md
+  - Percona Operators: percona-operators.md
   - Percona Everest: "https://github.com/percona/everest-doc"
-  - Percona Operators: dummy.md
   - PMM: "https://docs.percona.com/percona-monitoring-and-management"
   - Percona Toolkit: "https://docs.percona.com/percona-toolkit"
   # - Dummy:

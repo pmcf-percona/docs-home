@@ -73,7 +73,7 @@ hide:
           Documentation for Percona’s private database-as-a-service open-source software
         </p>
       </a>
-      <a href="#" class="splash-card">
+      <a href="percona-operators" class="splash-card">
         <img src="assets/logo-operators.svg" alt="Percona Operators logo" />
         <h3>
           Percona Operators
