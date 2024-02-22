@@ -26,7 +26,7 @@ hide:
           Percona for PostgreSQL
         </h3>
         <p>
-          All Percona software for PostgreSQL databases documentation
+          All Percona software for PostgreSQL databases documentation.
         </p>
       </a>
       <a href="percona-for-mongodb" class="splash-card">
@@ -35,7 +35,7 @@ hide:
           Percona for MongoDB
         </h3>
         <p>
-          All Percona software for MongoDB databases documentation
+          All Percona software for MongoDB databases documentation.
         </p>
       </a>
       <a href="percona-for-mysql" class="splash-card">
@@ -44,7 +44,7 @@ hide:
           Percona for MySQL
         </h3>
         <p>
-          All Percona software for MySQL databases documentation
+          All Percona software for MySQL databases documentation.
         </p>
       </a>
     </div>
@@ -70,7 +70,7 @@ hide:
           Percona Everest
         </h3>
         <p>
-          Documentation for Percona’s private database-as-a-service open-source software
+          Documentation for Percona’s private database-as-a-service open-source software.
         </p>
       </a>
       <a href="percona-operators" class="splash-card">
@@ -79,7 +79,7 @@ hide:
           Percona Operators
         </h3>
         <p>
-          Documentation for the Kubernetes operators available for PostgreSQL, MongoDB and MySQL
+          Documentation for the Kubernetes operators available for PostgreSQL, MongoDB and MySQL.
         </p>
       </a>
     </div>
@@ -105,7 +105,7 @@ hide:
           Percona Monitoring & Management
         </h3>
         <p>
-          High-quality, polyglot monitoring, alerting and more for databases
+          High-quality, polyglot monitoring, alerting and more for databases.
         </p>
       </a>
       <a href="https://docs.percona.com/percona-toolkit" class="splash-card">
@@ -114,7 +114,7 @@ hide:
           Percona Toolkit
         </h3>
         <p>
-          Professional, advanced and open-source command-line tools for databases
+          Professional, advanced and open-source command-line tools for databases.
         </p>
       </a>
     </div>

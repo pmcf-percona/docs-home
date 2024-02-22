@@ -80,6 +80,18 @@ A single high-performance solution for enterprises looking to achieve optimum pe
 
 </div>
 </div>
+<div data-banner markdown>
+
+### Monitoring MongoDB with PMM {.title}
+
+High-quality, polyglot monitoring, alerting and more functionalities for MongoDB and other database technologies.
+
+<div class="actions" markdown>
+
+[PMM Documentation :material-arrow-right:](#)
+
+</div>
+</div>
 </div>
 
 

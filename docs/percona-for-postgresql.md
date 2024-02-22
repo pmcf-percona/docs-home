@@ -66,6 +66,18 @@ Query performance monitoring tool that brings more insight and details around qu
 
 </div>
 </div>
+<div data-banner markdown>
+
+### Monitoring PostgreSQL with PMM {.title}
+
+High-quality, polyglot monitoring, alerting and more functionalities for PostgreSQL and other database technologies.
+
+<div class="actions" markdown>
+
+[PMM Documentation :material-arrow-right:](#)
+
+</div>
+</div>
 </div>
 
 

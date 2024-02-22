@@ -108,6 +108,18 @@ The most stable, scalable and secure open source MySQL distribution with choice 
 
 </div>
 </div>
+<div data-banner markdown>
+
+### Monitoring MySQL with PMM {.title}
+
+High-quality, polyglot monitoring, alerting and more functionalities for MySQL and other database technologies.
+
+<div class="actions" markdown>
+
+[PMM Documentation :material-arrow-right:](#)
+
+</div>
+</div>
 </div>
 
 
