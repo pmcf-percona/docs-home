@@ -375,6 +375,12 @@ a.splash-card img {
     text-decoration: none;
 }
 
+/* Super Nav overrides */
+
+.superNav {
+    display: none;
+}
+
 /* Conditionals */
 
 @media screen and (max-width: 76.1875em) {
