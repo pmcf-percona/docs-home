@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 /* Type */
 
@@ -29,19 +36,26 @@
     align-self: center;
 } */
 [data-grid] [data-banner] {
-    flex: 0 1 calc(50% - 1rem);
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(50% - 1rem);
+            flex: 0 1 calc(50% - 1rem);
 }
 
 /* Splash Box */
 
 .splash {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     line-height: 1.25;
     padding: calc(0.5em + 3%);
     border: 1px solid var(--md-default-fg-color--lightest);
     border-radius: calc(0.5rem + 0.75vw);
+    background: -o-linear-gradient(340deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
     background: linear-gradient(110deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -53,6 +67,13 @@
 }
 .splash.highlight {
     background:
+        -o-linear-gradient(
+            340deg,
+            rgba(44,50,62,0.9) 10%,
+            rgba(44,50,62,0.1) 90%
+        ),
+        url(../assets/highlight.jpg) center / cover var(--stone800);
+    background:
         linear-gradient(
             110deg,
             rgba(44,50,62,0.9) 10%,
@@ -63,6 +84,17 @@
     background-repeat: no-repeat;
 }
 .splash.mysql {
+    background:
+        -o-linear-gradient(
+            340deg,
+            rgba(0,0,0,0.2) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        -o-linear-gradient(
+            340deg,
+            rgb(14,95,181) 33%,
+            rgb(48,209,178) 95%
+        );
     background:
         linear-gradient(
             110deg,
@@ -77,6 +109,17 @@
 }
 .splash.postgresql {
     background:
+        -o-linear-gradient(
+            340deg,
+            rgba(0,0,0,0.4) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        -o-linear-gradient(
+            340deg,
+            rgb(78,91,150) 33%,
+            rgb(67,158,255) 95%
+        );
+    background:
         linear-gradient(
             110deg,
             rgba(0,0,0,0.4) 33%,
@@ -89,6 +132,17 @@
         );
 }
 .splash.mongodb {
+    background:
+        -o-linear-gradient(
+            340deg,
+            rgba(0,0,0,0.4) 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        -o-linear-gradient(
+            340deg,
+            rgb(24,109,73) 33%,
+            rgb(48,209,190) 95%
+        );
     background:
         linear-gradient(
             110deg,
@@ -103,6 +157,17 @@
 }
 .splash.operators {
     background:
+        -o-linear-gradient(
+            340deg,
+            transparent 33%,
+            rgba(0,0,0,0.1) 95%
+        ),
+        -o-linear-gradient(
+            340deg,
+            rgb(11,39,140) 33%,
+            rgb(20,142,255) 95%
+        );
+    background:
         linear-gradient(
             110deg,
             transparent 33%,
@@ -115,8 +180,13 @@
         );
 }
 .splash.header {
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     border: none;
     background-repeat: no-repeat;
 }
@@ -124,7 +194,9 @@
 /* Splash Contents */
 
 .splash > * {
-    flex: 0 1 45%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
 }
 .splash h1,
 .splash h2 {
@@ -168,16 +240,25 @@
     width: 12rem;
     height: 12rem;
     margin: 0;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     z-index: 0;
 }
 
 /* Splash Card */
 
 a.splash-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     min-height: 6.75em;
     padding: 0.75rem 0.375rem 0.5rem 4.75rem;
     border: 1px solid var(--md-default-fg-color--lightest);
@@ -187,22 +268,27 @@ a.splash-card {
     color: var(--md-typeset-color);
     position: relative;
     background-color: var(--md-default-bg-color);
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 .splash.highlight a.splash-card {
     color: var(--white);
     background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(0.75rem);
+    -webkit-backdrop-filter: blur(0.75rem);
+            backdrop-filter: blur(0.75rem);
     border-color: rgba(255,255,255,0.1);
 }
 a.splash-card:hover {
-    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
     color: var(--md-typeset-color);
 }
 .splash.highlight a.splash-card:hover {
     background-color: rgba(255, 255, 255, 0.4);
     border-color: rgba(255,255,255,0.2);
-    backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
+            backdrop-filter: blur(1.5rem);
 }
 a.splash-card img {
     display: block;
@@ -225,14 +311,24 @@ a.splash-card img {
 /* News elements */
 
 [data-news] {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-right: -1rem;
 }
 [data-news] [data-article] {
-    flex: 0 1 calc(50% - 1rem);
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(50% - 1rem);
+            flex: 0 1 calc(50% - 1rem);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0 1rem 1rem 0;
     padding: 0 1rem 1rem 0;
     border-bottom: 1px solid var(--md-default-fg-color--lightest);
@@ -252,7 +348,8 @@ a.splash-card img {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
     max-height: 2.8em;
     position: relative;
 }
@@ -264,6 +361,8 @@ a.splash-card img {
     bottom: 0;
     width: 4rem;
     height: 1.4em;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(50%, var(--md-default-bg-color)));
+    background: -o-linear-gradient(left, transparent 0%, var(--md-default-bg-color) 50%);
     background: linear-gradient(to right, transparent 0%, var(--md-default-bg-color) 50%);
 }
 [data-article] > :last-child > * {
@@ -292,10 +391,15 @@ a.splash-card img {
 }
 @media screen and (max-width: 45em) {
     .splash {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     [data-grid] [data-banner],
     [data-news] [data-article] {
-        flex: 1 1 100%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
     }
 }
