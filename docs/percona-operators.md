@@ -34,7 +34,7 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-backup-mongodb/)
 
 </div>
 </div>
@@ -48,7 +48,7 @@ Automate deployment and management of MongoDB clusters on Kubernetes with Operat
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-backup-mongodb/)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-backup-mongodb/)
 
 </div>
 </div>
@@ -76,7 +76,7 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-backup-mongodb/)
 
 </div>
 </div>
