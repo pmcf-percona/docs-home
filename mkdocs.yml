@@ -89,6 +89,6 @@ nav:
   - Percona Everest: "https://github.com/percona/everest-doc"
   - PMM: "https://docs.percona.com/percona-monitoring-and-management"
   - Percona Toolkit: "https://docs.percona.com/percona-toolkit"
-  - Dummy:
-    - One: test/ps-mysql.md
-    - Two: test/quickstart-guides.md
+  # - Dummy:
+  #   - One: test/ps-mysql.md
+  #   - Two: test/quickstart-guides.md
