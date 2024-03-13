@@ -79,7 +79,7 @@ extra:
           note: >- 
             Thank you for your feedback! Help us improve by following this <a href="#" target="_blank" rel="noopener">feedback form</a>.
 copyright: >-
-  <a href="https://www.percona.com/about">Percona LLC</a> and/or its affiliates © 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
+  <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; <script>document.write(new Date().getFullYear())</script> — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 nav:
   - Welcome: index.md
   - Percona for PostgreSQL: percona-for-postgresql.md

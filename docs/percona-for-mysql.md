@@ -34,7 +34,7 @@ A drop-in replacement for MySQL, with advanced features and functionality.
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
@@ -48,7 +48,7 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ A high-availability clustering solution based on Percona Server for MySQL.
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
@@ -76,7 +76,7 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
@@ -90,7 +90,7 @@ A hot backup solution for MySQL.
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
@@ -104,7 +104,7 @@ The most stable, scalable and secure open source MySQL distribution with choice 
 
 [Releases](#)
 [Downloads](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/percona-xtrabackup/)
 
 </div>
 </div>
