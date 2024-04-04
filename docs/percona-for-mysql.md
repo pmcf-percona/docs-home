@@ -12,7 +12,7 @@ hide:
 
 # Percona for MySQL
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your MySQL databases is right here.
+Quickstart guides, help guides, reference lists, release notes, and the latest downloads. We have everything you need to optimize your MySQL databases right here.
 
 [Select documentation](#percona-for-mysql-documentation){.md-button .md-button--primary} [What's new](#whats-new){.md-button}
 
