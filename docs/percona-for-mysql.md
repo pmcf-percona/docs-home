@@ -31,7 +31,6 @@ A drop-in replacement for MySQL, with advanced features and functionality.
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>
@@ -45,7 +44,6 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>
@@ -59,7 +57,6 @@ A high-availability clustering solution based on Percona Server for MySQL.
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>
@@ -73,7 +70,6 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>
@@ -87,7 +83,6 @@ A hot backup solution for MySQL.
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>
@@ -101,7 +96,6 @@ The most stable, scalable and secure open source MySQL distribution with choice 
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
 
 </div>

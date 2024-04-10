@@ -31,7 +31,6 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
 
 </div>
@@ -45,7 +44,6 @@ Automate deployment and management of MongoDB clusters on Kubernetes with Operat
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
 
 </div>
@@ -59,7 +57,6 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
 
 </div>
@@ -73,7 +70,6 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
 
 </div>

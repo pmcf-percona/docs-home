@@ -31,7 +31,6 @@ A drop-in replacement for MongoDB with advanced features and functionality.
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
 
 </div>
@@ -45,7 +44,6 @@ Automate deployment and management of MongoDB clusters on Kubernetes with Operat
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
 
 </div>
@@ -59,7 +57,6 @@ A fully supported, open source, community backup tool for performing consistent 
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
 
 </div>
@@ -73,7 +70,6 @@ A single high-performance solution for enterprises looking to achieve optimum pe
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
 
 </div>

@@ -31,7 +31,6 @@ The best and most critical enterprise-level components from the open source comm
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
 
 </div>
@@ -45,7 +44,6 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
 
 </div>
@@ -59,7 +57,6 @@ Query performance monitoring tool that brings more insight and details around qu
 <div class="actions" markdown>
 
 [Releases](#)
-[Downloads](#)
 [Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
 
 </div>
