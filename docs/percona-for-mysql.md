@@ -6,27 +6,27 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header mysql dark" markdown>
+<div class="splash header subpage mysql dark" markdown>
 
 ![Percona for MySQL logo](assets/logo-dark-mysql.svg)
 
 # Percona for MySQL
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your MySQL databases is right here.
+Quickstart guides, user guides, and how-tos, release notes, and the latest downloads. Everything you need to optimize your MySQL databases is right here.
 
 </div>
 </div>
 
 
 
-## Percona for MySQL documentation
+## Documentation
 
 <div data-grid markdown>
 <div data-banner markdown>
 
-### Percona Server for MySQL {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL {.title}
 
-A drop-in replacement for MySQL, with advanced features and functionality.
+An enhanced, fully compatible, source available, drop-in replacement for MySQL Community Edition with enterprise-level features.
 
 <div class="actions" markdown>
 
@@ -37,7 +37,7 @@ A drop-in replacement for MySQL, with advanced features and functionality.
 </div>
 <div data-banner markdown>
 
-### Percona Operator based on Percona Server for MySQL {.title}
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona Server for MySQL {.title}
 
 Automate deployment and management of MySQL clusters on Kubernetes with Operator.
 
@@ -50,22 +50,10 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 </div>
 <div data-banner markdown>
 
-### Percona XtraDB Cluster {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraDB Cluster {.title}
 
-A high-availability clustering solution based on Percona Server for MySQL.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Operator based on Percona XtraDB Cluster {.title}
-
-Automate deployment and management of Percona XtraDB Clusters on Kubernetes with this Operator.
+A database cluster solution for MySQL.
+It ensures high availability, prevents downtime and data loss, and provides linear scalability for a growing environment.
 
 <div class="actions" markdown>
 
@@ -76,22 +64,9 @@ Automate deployment and management of Percona XtraDB Clusters on Kubernetes with
 </div>
 <div data-banner markdown>
 
-### Percona XtraBackup {.title}
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona XtraDB Cluster {.title}
 
-A hot backup solution for MySQL.
-
-<div class="actions" markdown>
-
-[Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
-
-</div>
-</div>
-<div data-banner markdown>
-
-### Percona Distribution for MySQL {.title}
-
-The most stable, scalable and secure open source MySQL distribution with choice on either Percona Server for MySQL or Percona XtraDB Cluster.
+Automate deployment and management of Percona XtraDB Clusters (MySQL clustering solution) on Kubernetes with Operator.
 
 <div class="actions" markdown>
 
@@ -102,9 +77,47 @@ The most stable, scalable and secure open source MySQL distribution with choice 
 </div>
 <div data-banner markdown>
 
-### Monitoring MySQL with PMM {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup {.title}
 
-High-quality, polyglot monitoring, alerting and more functionalities for MySQL and other database technologies.
+An open source, hot backup utility for MySQL-based servers that keeps your database fully available during planned maintenance windows.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Distribution for MySQL {.title}
+
+A single solution with the best and most critical enterprise components from the MySQL open source community, designed and tested to work together.
+
+<div class="actions" markdown>
+
+[Releases](#)
+[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> ProxySQL Admin Utilities {.title}
+
+Use ProxySQL Admin to configure Percona XtraDB Cluster nodes into ProxySQL. The Percona Scheduler Admin has a segment-aware failover mechanism and can automatically perform a failover due to node failures, service degradation, or maintenance requirements.
+
+<div class="actions" markdown>
+
+[Documentation :material-arrow-right:](#)
+
+</div>
+</div>
+<div data-banner markdown>
+
+### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MySQL with PMM {.title}
+
+An open source database monitoring, management and observability solution for MySQL and other database technologies.
 
 <div class="actions" markdown>
 

@@ -82,9 +82,9 @@ copyright: >-
   <a href="https://www.percona.com/about">Percona LLC</a> and its affiliates &copy; 2024 — <a href="#" onclick="Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')">Cookie Preferences</a>
 nav:
   - Welcome: index.md
-  - Percona for PostgreSQL: percona-for-postgresql.md
-  - Percona for MongoDB: percona-for-mongodb.md
-  - Percona for MySQL: percona-for-mysql.md
+  - PostgreSQL: percona-for-postgresql.md
+  - MongoDB: percona-for-mongodb.md
+  - MySQL: percona-for-mysql.md
   - Percona Operators: percona-operators.md
   - Percona Everest: "https://pmcf-percona.github.io/everest-doc/"
   - PMM: "https://pmcf-percona.github.io/pmm-doc/"

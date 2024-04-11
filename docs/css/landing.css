@@ -11,7 +11,7 @@
 .landing h1,
 .landing h2 {
     font-size: calc(1.5em + 1vw);
-    line-height: 1.125;
+    line-height: 1;
     text-transform: uppercase;
     letter-spacing: 0;
     margin: 0.5em 0;
@@ -25,37 +25,21 @@
 .landing > :not(:last-child) {
     margin-bottom: 2em;
 }
-/* .md-content__inner {
-    display: flex;
-    flex-direction: column;
-}
-.md-content__inner > :not(.landing) {
-    width: 100%;
-    max-width: calc(34.3rem);
-    max-width: calc(34.3rem + 1.2rem + 12.1rem);
-    align-self: center;
-} */
 [data-grid] [data-banner] {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 calc(50% - 1rem);
-            flex: 0 1 calc(50% - 1rem);
+    flex: 0 1 calc(50% - 1rem);
 }
 
 /* Splash Box */
 
 .splash {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1.25;
     padding: calc(0.5em + 3%);
     border: 1px solid var(--md-default-fg-color--lightest);
     border-radius: calc(0.5rem + 0.75vw);
-    background: -o-linear-gradient(340deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
     background: linear-gradient(110deg, var(--md-default-bg-color) 33%, var(--md-footer-bg-color--dark) 95%);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -65,14 +49,10 @@
     --md-primary-fg-color: var(--stone50);
     --md-accent-fg-color: var(--white);
 }
+.splash.subpage h1 {
+    text-transform: initial;
+}
 .splash.highlight {
-    background:
-        -o-linear-gradient(
-            340deg,
-            rgba(44,50,62,0.9) 10%,
-            rgba(44,50,62,0.1) 90%
-        ),
-        url(../assets/highlight.jpg) center / cover var(--stone800);
     background:
         linear-gradient(
             110deg,
@@ -84,17 +64,6 @@
     background-repeat: no-repeat;
 }
 .splash.mysql {
-    background:
-        -o-linear-gradient(
-            340deg,
-            rgba(0,0,0,0.2) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        -o-linear-gradient(
-            340deg,
-            rgb(14,95,181) 33%,
-            rgb(48,209,178) 95%
-        );
     background:
         linear-gradient(
             110deg,
@@ -109,17 +78,6 @@
 }
 .splash.postgresql {
     background:
-        -o-linear-gradient(
-            340deg,
-            rgba(0,0,0,0.4) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        -o-linear-gradient(
-            340deg,
-            rgb(78,91,150) 33%,
-            rgb(67,158,255) 95%
-        );
-    background:
         linear-gradient(
             110deg,
             rgba(0,0,0,0.4) 33%,
@@ -132,17 +90,6 @@
         );
 }
 .splash.mongodb {
-    background:
-        -o-linear-gradient(
-            340deg,
-            rgba(0,0,0,0.4) 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        -o-linear-gradient(
-            340deg,
-            rgb(24,109,73) 33%,
-            rgb(48,209,190) 95%
-        );
     background:
         linear-gradient(
             110deg,
@@ -157,17 +104,6 @@
 }
 .splash.operators {
     background:
-        -o-linear-gradient(
-            340deg,
-            transparent 33%,
-            rgba(0,0,0,0.1) 95%
-        ),
-        -o-linear-gradient(
-            340deg,
-            rgb(11,39,140) 33%,
-            rgb(20,142,255) 95%
-        );
-    background:
         linear-gradient(
             110deg,
             transparent 33%,
@@ -180,23 +116,18 @@
         );
 }
 .splash.header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     border: none;
     background-repeat: no-repeat;
+    min-height: 12rem;
 }
 
 /* Splash Contents */
 
 .splash > * {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 45%;
-            flex: 0 1 45%;
+    flex: 0 1 45%;
 }
 .splash h1,
 .splash h2 {
@@ -205,9 +136,6 @@
 }
 .splash > :last-child {
     margin-bottom: 0;
-}
-.splash-intro {
-    margin: 0.5rem 0.75rem;
 }
 .splash-links > :not(:last-child) {
     margin-bottom: 1em;
@@ -240,25 +168,16 @@
     width: 12rem;
     height: 12rem;
     margin: 0;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 0;
 }
 
 /* Splash Card */
 
 a.splash-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     min-height: 6.75em;
     padding: 0.75rem 0.375rem 0.5rem 4.75rem;
     border: 1px solid var(--md-default-fg-color--lightest);
@@ -268,8 +187,6 @@ a.splash-card {
     color: var(--md-typeset-color);
     position: relative;
     background-color: var(--md-default-bg-color);
-    -webkit-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 .splash.highlight a.splash-card {
@@ -280,8 +197,7 @@ a.splash-card {
     border-color: rgba(255,255,255,0.1);
 }
 a.splash-card:hover {
-    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
-            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
     color: var(--md-typeset-color);
 }
 .splash.highlight a.splash-card:hover {
@@ -311,24 +227,14 @@ a.splash-card img {
 /* News elements */
 
 [data-news] {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-right: -1rem;
 }
 [data-news] [data-article] {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 calc(50% - 1rem);
-            flex: 0 1 calc(50% - 1rem);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 calc(50% - 1rem);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0 1rem 1rem 0;
     padding: 0 1rem 1rem 0;
     border-bottom: 1px solid var(--md-default-fg-color--lightest);
@@ -348,8 +254,7 @@ a.splash-card img {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-    -o-text-overflow: ellipsis;
-       text-overflow: ellipsis;
+    text-overflow: ellipsis;
     max-height: 2.8em;
     position: relative;
 }
@@ -361,8 +266,6 @@ a.splash-card img {
     bottom: 0;
     width: 4rem;
     height: 1.4em;
-    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(50%, var(--md-default-bg-color)));
-    background: -o-linear-gradient(left, transparent 0%, var(--md-default-bg-color) 50%);
     background: linear-gradient(to right, transparent 0%, var(--md-default-bg-color) 50%);
 }
 [data-article] > :last-child > * {
@@ -397,15 +300,10 @@ a.splash-card img {
 }
 @media screen and (max-width: 45em) {
     .splash {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-direction: column;
     }
     [data-grid] [data-banner],
     [data-news] [data-article] {
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 100%;
-                flex: 1 1 100%;
+        flex: 1 1 100%;
     }
 }

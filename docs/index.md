@@ -64,7 +64,7 @@ hide:
     </div>
     <!--Links-->
     <div class="splash-links">
-      <a href="https://github.com/percona/everest-doc" class="splash-card">
+      <a href="https://pmcf-percona.github.io/everest-doc/" class="splash-card">
         <img src="assets/logo-everest.svg" alt="Percona Everest logo" />
         <h3>
           Percona Everest

@@ -6,27 +6,27 @@ hide:
 ---
 
 <div class="landing" markdown>
-<div class="splash header postgresql dark" markdown>
+<div class="splash header subpage postgresql dark" markdown>
 
 ![Percona for PostgreSQL logo](assets/logo-dark-postgresql.svg)
 
 # Percona for PostgreSQL
 
-Quickstart guides, help guides, reference lists, release notes, the latest downloads. We have everything you need to optimize your PostgreSQL databases is right here.
+Explore our Percona Software for PostgreSQL documentation. Find user guides, quickstarts, and how-tos tailored to help you build, deploy, manage, and automate PostgreSQL effectively.
 
 </div>
 </div>
 
 
 
-## Percona for PostgreSQL documentation
+## Documentation
 
 <div data-grid markdown>
 <div data-banner markdown>
 
-### Percona Distribution for PostgreSQL {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL {.title}
 
-The best and most critical enterprise-level components from the open source community, designed and tested to work together in one source to swiftly deploy your PostgreSQL databases.
+A native PostgreSQL server enhanced with the set of extensions for high availability, backup, security, and observability, all tested to work together.
 
 <div class="actions" markdown>
 
@@ -37,7 +37,7 @@ The best and most critical enterprise-level components from the open source comm
 </div>
 <div data-banner markdown>
 
-### Percona Operator for PostgreSQL {.title}
+### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
 Automate deployment and management of PostgreSQL clusters on Kubernetes with Operator.
 
@@ -50,9 +50,9 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 </div>
 <div data-banner markdown>
 
-### Percona Query Monitoring for PostgreSQL {.title}
+### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
-Query performance monitoring tool that brings more insight and details around query performance and scale on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
+A query performance monitoring tool that brings more insight and details around query performance, planning statistics and metadata on PostgreSQL systems. It improves observability, enabling you to debug and tune query performance with precision.
 
 <div class="actions" markdown>
 
@@ -63,9 +63,9 @@ Query performance monitoring tool that brings more insight and details around qu
 </div>
 <div data-banner markdown>
 
-### Monitoring PostgreSQL with PMM {.title}
+### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring PostgreSQL with PMM {.title}
 
-High-quality, polyglot monitoring, alerting and more functionalities for PostgreSQL and other database technologies.
+An open source database monitoring, management and observability solution for PostgreSQL and other database technologies.
 
 <div class="actions" markdown>
 
