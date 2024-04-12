@@ -38,6 +38,8 @@ extra_css:
   - css/landing.css
   - css/osano.css
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - md_in_html
   - attr_list
   - pymdownx.emoji:
@@ -89,3 +91,4 @@ nav:
   - Percona Everest: "https://pmcf-percona.github.io/everest-doc/"
   - PMM: "https://pmcf-percona.github.io/pmm-doc/"
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"
+  - Percona Lab: percona-lab.md
