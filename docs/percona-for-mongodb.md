@@ -17,12 +17,10 @@ Explore our Percona Software for MongoDB documentation. Find user guides, quicks
 </div>
 </div>
 
-
-
-## Documentation
+## MongoDB documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Server for MongoDB {.title}
 
@@ -30,12 +28,13 @@ An enhanced, fully compatible, source available, drop-in replacement for MongoDB
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pbm-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MongoDB {.title}
 
@@ -43,12 +42,13 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pbm-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Backup for MongoDB {.title}
 
@@ -56,12 +56,13 @@ An open source, community backup tool for performing consistent backups and rest
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pbm-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mongodb" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mongodb:</span> Percona Distribution for MongoDB {.title}
 
@@ -69,12 +70,13 @@ A collection of solutions to run and operate your MongoDB efficiently with the d
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pbm-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pbm-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MongoDB with PMM {.title}
 
@@ -82,7 +84,7 @@ High-quality, polyglot monitoring, alerting and more functionalities for MongoDB
 
 <div class="actions" markdown>
 
-[PMM Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management){.md-button}
 
 </div>
 </div>

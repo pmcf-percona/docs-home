@@ -17,12 +17,10 @@ Explore our Percona Software for PostgreSQL documentation. Find user guides, qui
 </div>
 </div>
 
-
-
-## Documentation
+## PostgreSQL documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Percona Distribution for PostgreSQL {.title}
 
@@ -30,12 +28,13 @@ A native PostgreSQL server enhanced with the set of extensions for high availabi
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/postgresql-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
@@ -43,12 +42,13 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/postgresql-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="postgresql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-postgresql:</span> Query Performance Monitoring for PostgreSQL {.title}
 
@@ -56,12 +56,13 @@ A query performance monitoring tool that brings more insight and details around 
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/postgresql-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/postgresql-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring PostgreSQL with PMM {.title}
 
@@ -69,7 +70,7 @@ An open source database monitoring, management and observability solution for Po
 
 <div class="actions" markdown>
 
-[PMM Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management){.md-button}
 
 </div>
 </div>

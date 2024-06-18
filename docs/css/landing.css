@@ -63,7 +63,8 @@
     border: none;
     background-repeat: no-repeat;
 }
-.splash.mysql {
+.splash.mysql,
+[data-banner="mysql"]::before {
     background:
         linear-gradient(
             110deg,
@@ -76,7 +77,8 @@
             rgb(48,209,178) 95%
         );
 }
-.splash.postgresql {
+.splash.postgresql,
+[data-banner="postgresql"]::before {
     background:
         linear-gradient(
             110deg,
@@ -89,7 +91,8 @@
             rgb(67,158,255) 95%
         );
 }
-.splash.mongodb {
+.splash.mongodb,
+[data-banner="mongodb"]::before {
     background:
         linear-gradient(
             110deg,
@@ -102,7 +105,8 @@
             rgb(48,209,190) 95%
         );
 }
-.splash.operators {
+.splash.operators,
+[data-banner="operators"]::before {
     background:
         linear-gradient(
             110deg,
@@ -113,6 +117,19 @@
             110deg,
             rgb(11,39,140) 33%,
             rgb(20,142,255) 95%
+        );
+}
+[data-banner="pmm"]::before {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.25) 33%,
+            rgba(0,0,0,0.15) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(204,58,0) 33%,
+            rgb(255,137,45) 95%
         );
 }
 .splash.header {
@@ -134,8 +151,11 @@
     margin-top: 0;
     margin-bottom: -0.125em;
 }
-.splash > :last-child {
+.splash > p {
     margin-bottom: 0;
+}
+.splash > p:last-child {
+    margin-bottom: -0.125em;
 }
 .splash-links > :not(:last-child) {
     margin-bottom: 1em;
@@ -224,6 +244,36 @@ a.splash-card img {
     margin-bottom: 0.0625rem !important;
 }
 
+/* Banners' banners */
+
+[data-banner] {
+    position: relative;
+    overflow: hidden;
+    padding-top: 1.25em;
+}
+[data-banner="postgresql"]::before,
+[data-banner="mongodb"]::before,
+[data-banner="mysql"]::before,
+[data-banner="operators"]::before,
+[data-banner="pmm"]::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1em;
+}
+[data-banner]::before {
+    opacity: 0.25;
+    transform: translateY(-0.375em);
+    transition: all 0.2s ease-out;
+}
+[data-banner]:hover::before {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* News elements */
 
 [data-news] {
@@ -282,6 +332,34 @@ a.splash-card img {
 
 .superNav {
     display: none;
+}
+
+/* Data Resources */
+
+[data-resources] {
+    border: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+[data-resources] > * {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+[data-resources] a {
+    display: block;
+    flex: 1 1 20em;
+    font-family: var(--fHeading);
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.25;
+    text-decoration: none !important;
+    text-align: center;
+    padding: 1.625em;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border-right: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
 }
 
 /* Conditionals */

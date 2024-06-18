@@ -17,12 +17,10 @@ Quickstart guides, user guides, and how-tos, release notes, and the latest downl
 </div>
 </div>
 
-
-
-## Documentation
+## MySQL documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Server for MySQL {.title}
 
@@ -30,12 +28,13 @@ An enhanced, fully compatible, source available, drop-in replacement for MySQL C
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona Server for MySQL {.title}
 
@@ -43,12 +42,13 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraDB Cluster {.title}
 
@@ -57,12 +57,13 @@ It ensures high availability, prevents downtime and data loss, and provides line
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona XtraDB Cluster {.title}
 
@@ -70,12 +71,13 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona XtraBackup {.title}
 
@@ -83,12 +85,13 @@ An open source, hot backup utility for MySQL-based servers that keeps your datab
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> Percona Distribution for MySQL {.title}
 
@@ -96,12 +99,13 @@ A single solution with the best and most critical enterprise components from the
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/pxb-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/pxb-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="mysql" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.125em">:percona-mysql:</span> ProxySQL Admin Utilities {.title}
 
@@ -109,11 +113,11 @@ Use ProxySQL Admin to configure Percona XtraDB Cluster nodes into ProxySQL. The 
 
 <div class="actions" markdown>
 
-[Documentation :material-arrow-right:](#)
+[Documentation](#){.md-button}
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="pmm" markdown>
 
 ### <span style="font-size:1.875em;margin-right:0.0625em">:percona-pmm:</span> Monitoring MySQL with PMM {.title}
 
@@ -121,8 +125,21 @@ An open source database monitoring, management and observability solution for My
 
 <div class="actions" markdown>
 
-[PMM Documentation :material-arrow-right:](https://docs.percona.com/percona-monitoring-and-management)
+[Documentation](https://docs.percona.com/percona-monitoring-and-management){.md-button}
 
 </div>
 </div>
 </div>
+
+## Other resources
+
+<div data-resources markdown>
+
+[:material-forum-outline: MySQL at Community Forum](#)
+[:material-newspaper-variant-outline: MySQL Blog Articles](#)
+[:percona-logo: Get a Percona Expert](#)
+[:material-account-group: Community Website](#)
+[:material-newspaper-variant-outline: Community Blog](#)
+
+</div>
+<br>

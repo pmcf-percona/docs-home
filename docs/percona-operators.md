@@ -17,12 +17,10 @@ Explore our Percona Kubernetes Operators documentation. Find user guides, quicks
 </div>
 </div>
 
-
-
-## Documentation
+## Operators documentation
 
 <div data-grid markdown>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for PostgreSQL {.title}
 
@@ -30,12 +28,13 @@ Automate deployment and management of PostgreSQL clusters on Kubernetes with Ope
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/k8spg-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator for MongoDB {.title}
 
@@ -43,12 +42,13 @@ Based on best practices for the configuration of Percona Server for MongoDB, the
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/k8spg-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona Server for MySQL {.title}
 
@@ -56,12 +56,13 @@ Automate deployment and management of MySQL clusters on Kubernetes with Operator
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/k8spg-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[What's New](#)
 
 </div>
 </div>
-<div data-banner markdown>
+<div data-banner="operators" markdown>
 
 ### <span style="font-size:2em">:percona-operators:</span> Percona Operator based on Percona XtraDB Cluster {.title}
 
@@ -69,8 +70,9 @@ Automate deployment and management of Percona XtraDB Clusters (MySQL clustering 
 
 <div class="actions" markdown>
 
+[Documentation](https://pmcf-percona.github.io/k8spg-docs/){.md-button}
 [Releases](#)
-[Quickstart Docs :material-arrow-right:](https://pmcf-percona.github.io/k8spg-docs/)
+[What's New](#)
 
 </div>
 </div>
