@@ -89,7 +89,7 @@ nav:
   - MongoDB: percona-for-mongodb.md
   - MySQL: percona-for-mysql.md
   - Percona Operators: percona-operators.md
-  - Percona Everest: "https://pmcf-percona.github.io/everest-doc/"
-  - PMM: "https://pmcf-percona.github.io/pmm-doc/"
+  - Percona Everest: percona-everest.md
+  - PMM: pmm.md
   - Legacy docs: "https://docs.percona.com/legacy-documentation/"
   - Percona Lab: percona-lab.md

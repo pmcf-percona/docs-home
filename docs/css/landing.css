@@ -119,6 +119,7 @@
             rgb(20,142,255) 95%
         );
 }
+.splash.pmm,
 [data-banner="pmm"]::before {
     background:
         linear-gradient(
@@ -130,6 +131,20 @@
             110deg,
             rgb(204,58,0) 33%,
             rgb(255,137,45) 95%
+        );
+}
+.splash.everest,
+[data-banner="everest"]::before {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0) 33%,
+            rgba(0,0,0,0.2) 95%
+        ),
+        linear-gradient(
+            110deg,
+            rgb(14,95,181) 33%,
+            rgb(98,174,255) 95%
         );
 }
 .splash.header {
@@ -255,7 +270,8 @@ a.splash-card img {
 [data-banner="mongodb"]::before,
 [data-banner="mysql"]::before,
 [data-banner="operators"]::before,
-[data-banner="pmm"]::before {
+[data-banner="pmm"]::before,
+[data-banner="everest"]::before {
     content: "";
     position: absolute;
     display: block;
