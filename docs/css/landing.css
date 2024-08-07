@@ -265,8 +265,8 @@ a.splash-card img {
     height: 1em;
 }
 [data-banner]::before {
-    opacity: 0.25;
-    transform: translateY(-0.375em);
+    opacity: 0.5;
+    transform: translateY(-0.5em);
     transition: all 0.2s ease-out;
 }
 [data-banner]:hover::before {
